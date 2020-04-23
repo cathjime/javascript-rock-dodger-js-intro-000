@@ -125,7 +125,7 @@ function endGame() {
     
     rock1.remove();
   }
-  alert("YOU LOSE!")
+  alert("YOU LOSE!");
  
 }
 
