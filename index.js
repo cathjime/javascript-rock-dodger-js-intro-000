@@ -156,7 +156,7 @@ function moveDodgerLeft() {
     // var leftNumbers = dodger.style.left.replace('px', '')
     var left = positionToInteger(DODGER.style.left)
  
-  if (left > 360) {
+  if (left < 360) {
     dodger.style.left = `${left + 4}px`
   }
   })
