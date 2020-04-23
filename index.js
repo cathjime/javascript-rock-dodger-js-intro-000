@@ -130,8 +130,8 @@ function endGame() {
 }
 
 function moveDodger(event) {
-  event.preventDefault();
   if (event.which == 37){
+    event.preventDefault();
     moveDodgerLeft();
   }
 
