@@ -137,7 +137,7 @@ function moveDodger(e) {
   }
 });
   
-  if()
+  //if()
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
