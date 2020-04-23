@@ -130,12 +130,11 @@ function endGame() {
 
 function moveDodger(e) {
   
-  $(document).on('keyup', function(key) {
-  if (key.which == 82){
+  if (e.which == 82){
     moveDodgerLeft();
     alert("YOU LOSE!");
   }
-});
+
   
   //if()
   // implement me!
