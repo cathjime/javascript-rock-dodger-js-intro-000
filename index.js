@@ -132,7 +132,6 @@ function moveDodger(event) {
   
   if (event.which == 37){
     moveDodgerLeft();
-    alert("YOU LOSE!");
   }
 
   
