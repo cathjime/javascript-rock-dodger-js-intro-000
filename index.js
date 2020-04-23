@@ -136,6 +136,7 @@ function moveDodger(event) {
     moveDodgerLeft();
   } else if(event.which == 39){
     event.preventDefault();
+    event.stopPropagation();
     moveDodgerRight();
   }
   
