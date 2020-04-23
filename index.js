@@ -133,9 +133,12 @@ function moveDodger(event) {
   if (event.which == 37){
     event.preventDefault();
     moveDodgerLeft();
-  } else if()
+  } else if(event.which == 39){
+    event.preventDefault();
+    moveDodgerLeft();
+  }
   
-  //if(event.which == 39)
+  //if()
   // implement me!
   /**
    * This function should call `moveDodgerLeft()`
